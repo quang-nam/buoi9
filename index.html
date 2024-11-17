@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--search function-->
+    <div class="header">
+        <h1>Home Page</h1>
+        <input type="text" id="searchInput" placeholder="Enter the product" oninput="searchFunction()">
+    </div>
+    <div class="container">
+    </div>
+    <!--chatbot -->
+    <script>
+        window.embeddedChatbotConfig = {
+            chatbotId: "0_Q3kQ8S5MP1f7GGtCkwm",
+            domain: "www.chatbase.co"
+        }
+    </script>
+    <script src="https://www.chatbase.co/embed.min.js" chatbotId="0_Q3kQ8S5MP1f7GGtCkwm" domain="www.chatbase.co" defer>
+    </script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
